@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+*{
+    /* font-size: 48px; */
+    font-family: sans-serif,serif,"メイリオ";
+}
+
+html{
+    font-size: 40px;
+}
+h1{
+    /* セレクタで指定した要素の背景色を指定 */
+    background-color: yellow;
+}
+
+.gnav > ul {
+    list-style: none;
+}
+
+.gnav > ul > li {
+    display:inline;
+
+    margin: 0 10px 0 0;
+    padding: 16px 6px;
+
+    border: 1px solid #000000;
+    border-radius: 80px;
+
+    background: linear-gradient(#e41616, #999);
+
+}
+
+table {
+    /* 罫線を表示するプロパティ */
+    /* border: 1px solid black; */
+
+    /* borderは辺ごとにスタイルを指定できる */
+    border-top: 4px dashed rgb(231, 179, 223);
+    border-right: 4px dashed rgb(228, 140, 206);
+    border-bottom: 4px dashed rgb(241, 77, 187);
+    border-left: 4px dashed rgb(233, 18, 204);
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(221, 224, 20);
+}
+
+td{
+    border: 1px solid black;
+    border-radius: 8px 0 8px;
+}
+
+p::first-letter{
+    font-size: 3em;
+}
+
+h3{
+    background-color: burlywood;
+}
+h4{
+    color: #128d26;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:hover{
+    font-size: 4em;
+}

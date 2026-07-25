@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    /* font-size: 48px; */
+    font-family: sans-serif,serif,"メイリオ";
+}
+
+html{
+    font-size: 40px;
+}
+h1{
+    /* セレクタで指定した要素の背景色を指定 */
+    background-color: red;
+}
+h3{
+    color: rgb(163, 165, 149);
+    background-image: url(../img/moriyoru13.png)
+     
+}
