@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+*{
+    /* font-size: 48px; */
+    font-family: sans-serif,serif,"メイリオ";
+}
+
+h2{
+    font-size: 100px;
+background-color: azure;
+
+}
